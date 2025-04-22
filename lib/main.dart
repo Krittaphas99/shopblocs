@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         return MaterialApp(
           title: 'BLoC Theme Demo',
           theme: theme,
-          home: Container(),
+          home: Scaffold(body: Text('teasdaadaasdaadssts'),),
         );
       },
     );
